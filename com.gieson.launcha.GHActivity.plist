@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.gieson.launcha.GHActivity</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/chrisweilacker/anaconda3/bin/python3</string>
+        <string>/Users/chrisweilacker/Desktop/GHActivity/GHActivity.py</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>Username</key>
+    <string>chrisweilacker</string>
+    <key>StandardOutPath</key>
+    <string>/Users/chrisweilacker/Desktop/GHActivity.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/chrisweilacker/Desktop/GHActivity.error.log</string>
+    <key>StartCalendarInterval</key>
+    <array>
+      <dict>
+        <key>Hour</key>
+        <integer>20</integer>
+        <key>Minute</key>
+        <integer>45</integer>
+      </dict>
+    </array>
+  </dict>
+</plist>
