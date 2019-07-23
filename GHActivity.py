@@ -36,7 +36,7 @@ os.system('git checkout master')
 for i in range(numberCommits):
     file = open("README.md", "w")
     d = time.time()
-    text = f'###EPOCH TIME REPO \n This repo was a simple test of how to get Epoch time written in multiple languages \n Current Epoch Time is {d}'
+    text = f'# EPOCH TIME REPO \n This repo was a simple test of how to get Epoch time written in multiple languages \n Current Epoch Time is {d}'
     file.write(text)
     file.close()
     os.system('git add README.md')

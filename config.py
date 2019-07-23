@@ -1,2 +1,2 @@
-token = '3ecc98f72b8ea78e0c44eaadb54ef478ceafcbb4'
+token = '3192315c31cb006c21623169d8e4e13f58399891'
 user = 'chrisweilacker'
